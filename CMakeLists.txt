@@ -121,6 +121,7 @@ if(${TRITON_ENABLE_NVTX})
 endif() # TRITON_ENABLE_NVTX
 
 set(Python_ADDITIONAL_VERSIONS 3.9)
+find_package(Python 3.9 REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(Threads REQUIRED)
 
